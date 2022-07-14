@@ -72,7 +72,7 @@ bot.hears('Тест-драйв', (ctx) => {
 })
 
 bot.hears('Меню', (ctx) => {
-	ctx.reply('Веберете пункт меню', Markup.keyboard(btns.startBtns).resize())
+	ctx.reply('Выберете пункт меню', Markup.keyboard(btns.startBtns).resize())
 })
 
 
