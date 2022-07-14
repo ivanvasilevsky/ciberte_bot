@@ -61,13 +61,13 @@ bot.hears('Оплата', (ctx) => {
 
 bot.hears('Связь с оператором', (ctx) => {
 	ctx.reply('Whatsapp', Markup.inlineKeyboard([
-		Markup.button.url('Написать на ватсап', 'https://api.whatsapp.com/send/?phone=%2B77003986060&text&type=phone_number&app_absent=0')
+		Markup.button.url('Написать на whatsapp', 'https://api.whatsapp.com/send/?phone=%2B77003986060&text&type=phone_number&app_absent=0')
 	]).resize())
 })
 
 bot.hears('Тест-драйв', (ctx) => {
-	ctx.reply('Приглашаем тебя бесплатно опробовать тест-драйв электромопедов! Сначала оцени качество, позже думай о покупке!', Markup.keyboard([
-		['Меню']
+	ctx.reply(text.driveText, Markup.inlineKeyboard([
+		Markup.button.url('Написать на whatsapp', 'https://api.whatsapp.com/send/?phone=%2B77003986060&text&type=phone_number&app_absent=0')
 	]).resize())
 })
 

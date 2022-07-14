@@ -23,8 +23,14 @@ https://go.2gis.com/a7xiy
 Наш Instagram: https://www.instagram.com/ciberte.kz/
 `
 
+const driveText = `
+Приглашаем тебя бесплатно опробовать тест-драйв электромопедов! Сначала оцени качество, позже думай о покупке!
+Вы можете поучаствовать в тест-драйве придя на нашу торговую точку в ТД AvtoDom, 2 этаж.
+Номер для записи:
+`
 
 
 
 module.exports.startText = startText
 module.exports.contactText = contactText
+module.exports.driveText = driveText
