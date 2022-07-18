@@ -14,7 +14,7 @@ bot.start((ctx) => {
 function modelsInfo(name, text, img) {
 	bot.hears(name, async (ctx) => {
 
-		await ctx.replyWithMediaGroup(img, { caption: text })
+		await ctx.replyWithMediaGroup(img)
 
 		await ctx.reply(text, Markup.keyboard([
 			['Назад к моделям', 'Меню']
