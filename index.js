@@ -46,15 +46,11 @@ bot.hears('Назад к моделям', (ctx) => {
 })
 
 bot.hears('Контакты', async (ctx) => {
-	await ctx.replyWithPhoto({ source: './photo/info/map.jpeg' }, { caption: text.contactText }, Markup.keyboard([
-		['Меню']
-	]).resize())
+	await ctx.replyWithPhoto({ source: './photo/info/map.jpeg' }, { caption: text.contactText })
 })
 
 bot.hears('Оплата', (ctx) => {
-	ctx.replyWithPhoto({ source: './photo/info/pay.jpeg'}, Markup.keyboard([
-		['Меню']
-	]).resize())
+	ctx.replyWithPhoto({ source: './photo/info/pay.jpeg' }, Markup.keyboard(btns.startBtns).resize())
 })
 
 bot.hears('Связь с оператором', (ctx) => {
