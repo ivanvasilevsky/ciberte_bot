@@ -14,7 +14,7 @@ bot.start((ctx) => {
 function modelsInfo(name, text, img) {
 	bot.hears(name, async (ctx) => {
 
-		await ctx.replyWithMediaGroup(img)
+		await ctx.replyWithMediaGroup(img, { caption: text })
 
 		await ctx.reply(text, Markup.keyboard([
 			['Назад к моделям', 'Меню']
@@ -46,11 +46,9 @@ bot.hears('Назад к моделям', (ctx) => {
 })
 
 bot.hears('Контакты', async (ctx) => {
-	await ctx.replyWithPhoto({ source: './photo/info/map.jpeg' }, Markup.keyboard([
+	await ctx.replyWithPhoto({ source: './photo/info/map.jpeg' }, { caption: text.contactText }, Markup.keyboard([
 		['Меню']
 	]).resize())
-	await ctx.replyWithHTML(text.contactText, {disable_web_page_preview: true}
-	)
 })
 
 bot.hears('Оплата', (ctx) => {
