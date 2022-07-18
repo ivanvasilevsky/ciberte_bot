@@ -10,7 +10,11 @@ const models = {
 		- скорость 2 опции: до 25 и до 49 км/ч
 		- цена 499,000 тг
 		`,
-		img: './photo/models/racoon800.jpeg'
+		img: [
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+		]
 	},
 
 	2: {
@@ -25,7 +29,11 @@ const models = {
 
 		Цена 699,000 тг
 		`,
-		img: './photo/models/fox1500.jpeg'
+		img: [
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+		]
 	},
 
 	3: {
@@ -40,7 +48,11 @@ const models = {
 
 		Цена 699,000 тг / 799,000 тг
 		`,
-		img: './photo/models/coyote2000.jpeg'
+		img: [
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+			'./photo/models/racoon800.jpeg',
+		]
 	},
 }
 

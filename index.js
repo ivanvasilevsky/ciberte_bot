@@ -13,9 +13,12 @@ bot.start((ctx) => {
 
 function modelsInfo(name, text, img) {
 	bot.hears(name, async (ctx) => {
-		await ctx.replyWithPhoto({
-			source: img
-		})
+		for (let i = 0; i < img.length; i++) {
+			await ctx.replyWithPhoto({
+				source: img[i]
+			})
+		}
+
 		await ctx.reply(text, Markup.keyboard([
 			['Назад к моделям', 'Меню']
 		]).resize())
