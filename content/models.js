@@ -11,9 +11,18 @@ const models = {
 		- цена 499,000 тг
 		`,
 		img: [
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
 		]
 	},
 
@@ -30,9 +39,18 @@ const models = {
 		Цена 699,000 тг
 		`,
 		img: [
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
 		]
 	},
 
@@ -49,9 +67,18 @@ const models = {
 		Цена 699,000 тг / 799,000 тг
 		`,
 		img: [
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
-			'./photo/models/racoon800.jpeg',
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox1500_2.jpeg"
+				}
+			},
 		]
 	},
 }
