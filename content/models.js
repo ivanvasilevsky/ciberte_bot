@@ -14,13 +14,19 @@ const models = {
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/racoon_1.jpeg"
 				}
 			},
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/racoon_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/racoon_3.jpeg"
 				}
 			},
 		]
@@ -42,13 +48,19 @@ const models = {
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/fox_1.jpeg"
 				}
 			},
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/fox_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/fox_3.jpeg"
 				}
 			},
 		]
@@ -70,13 +82,19 @@ const models = {
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/coyote_1.jpeg"
 				}
 			},
 			{
 				type: "photo",
 				media: {
-					source: "photo/models/fox1500_2.jpeg"
+					source: "photo/models/coyote_2.jpeg"
+				}
+			},
+			{
+				type: "photo",
+				media: {
+					source: "photo/models/coyote_3.jpeg"
 				}
 			},
 		]
